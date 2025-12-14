@@ -1,3 +1,3 @@
-module github.com/ErkebulanMukhamedkali/devtool
+module devtool
 
 go 1.24.1

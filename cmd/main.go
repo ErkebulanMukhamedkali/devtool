@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ErkebulanMukhamedkali/devtool/internal/commands"
+	"devtool/internal/commands"
 )
 
 func main() {

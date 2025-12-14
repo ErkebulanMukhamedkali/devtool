@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/ErkebulanMukhamedkali/devtool/internal/tools"
+	"devtool/internal/tools"
 )
 
 func List() error {
