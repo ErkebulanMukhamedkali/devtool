@@ -1,0 +1,3 @@
+module devtool
+
+go 1.24.1
