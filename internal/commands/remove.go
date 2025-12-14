@@ -1,10 +1,11 @@
 package commands
 
 import (
-	"devtool/internal/tools"
 	"fmt"
 	"os"
 	"os/exec"
+
+	"github.com/ErkebulanMukhamedkali/devtool/internal/tools"
 )
 
 func Remove(name string) error {
