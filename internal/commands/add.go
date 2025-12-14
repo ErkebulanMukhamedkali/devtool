@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"devtool/internal/tools"
+	"github.com/ErkebulanMukhamedkali/devtool/internal/tools"
 )
 
 func Add(name string) error {
