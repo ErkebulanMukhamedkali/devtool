@@ -17,12 +17,14 @@ func Remove(name string) error {
 		return fmt.Errorf("failed to run command: %w", err)
 	}
 
-	cmd = exec.Command("go", "mod", "tidy", tools.MODFILE_ARG)
-	cmd.Stdout, cmd.Stderr = os.Stdout, os.Stderr
+	// comment out for now due to tidy scans all project dependencies to modfile and ironically bloats it
 
-	if err := cmd.Run(); err != nil {
-		return fmt.Errorf("failed to tidy: %w", err)
-	}
+	// cmd = exec.Command("go", "mod", "tidy", tools.MODFILE_ARG)
+	// cmd.Stdout, cmd.Stderr = os.Stdout, os.Stderr
+
+	// if err := cmd.Run(); err != nil {
+	// 	return fmt.Errorf("failed to tidy: %w", err)
+	// }
 
 	return nil
 }
